@@ -7,6 +7,15 @@
   --pearl: #E2DFD2;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: var(--gold);
+  background-color: var(--pearl);
+  line-height: 150%;
+  }
+
 header {
   background-color: var(--navyblue);
   display: flex;
@@ -26,24 +35,6 @@ header h1 {
   line-height: 1;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  color: var(--gold);
-  background-color: var(--pearl);
-  line-height: 150%;
-  }
-
-  h2 {
-    margin: 0;
-  }
-
-/*main {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}*/
-
 nav {
   display: flex;
   flex-direction: row;
@@ -57,6 +48,16 @@ nav a {
   color: var(--gold);
   margin-left: 10px;
   }
+
+h2 {
+  margin: 0;
+}
+
+/*main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}*/
+
 
 .container {
   margin: 25px 0;
@@ -139,7 +140,13 @@ nav a:hover {
   background-color: var(--red);
 }
 
+@media screen and (max-width: 980px) {
 
+}
+
+@media screen and (max-width: 768px) {
+  
+}
 
 
 
