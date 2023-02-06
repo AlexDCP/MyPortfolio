@@ -1,7 +1,7 @@
 :root {
   --gold: #B3995D;
   --red: #AA0000;
-  --navyblue: #000080;
+  --navyblue: #0B0B45;
   --charcoal: #36454F;
   --black: #1b1e23;
   --pearl: #E2DFD2;
@@ -27,8 +27,8 @@ header {
 }
 
 header h1 {
-  color: var(--gold);
-  background-color: var(--red);
+  color: var(--pearl);
+  background-color: var(--gold);
   padding: 10px;
   margin: 0;
   font-size: 4vw;
