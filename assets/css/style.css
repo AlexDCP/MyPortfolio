@@ -81,7 +81,7 @@ h2 {
 }
 
 .col {
-  flex-basis: 100%;
+  /* flex-basis: 100%; */
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
@@ -105,7 +105,7 @@ h2 {
   flex-shrink: 0;
   flex-grow: 0;
   font-family: sans-serif;
-  font-size: 1.25vw;
+  font-size: 1.5vw;
 }
 
 .small_images > .col {
@@ -119,6 +119,7 @@ h2 {
 .small_images {
   max-width: 50%;
   position: relative;
+  justify-content: center;
 }
 
 
@@ -126,7 +127,6 @@ h2 {
 #first-challenge {
   max-width: 100%;
   max-height: 200px;
-  background-size: cover;
 }
 
 .contact {
@@ -168,6 +168,8 @@ nav a:hover {
 }
 
 .bottom-left {
+  display: flex;
+  flex-wrap: wrap;
   position: absolute;
   bottom: 16px;
   left: 16px;
@@ -182,17 +184,34 @@ nav a:hover {
   position: relative;
 }
 
+/* 
+I think this is redundant, cannot tell.
 #littlepicture{
   flex-basis: auto;
-}
+} */
+
 
 
 @media screen and (max-width: 980px) {
-
+  .big_image {
+    max-width: 75%;
+  }
+  
+  .small_images {
+    max-width: 75%;
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 768px) {
+  .big_image {
+    max-width: 75%;
+  }
   
+  .small_images {
+    max-width: 75%;
+    position: relative;
+  }
 }
 
 

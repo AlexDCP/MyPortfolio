@@ -10,7 +10,7 @@
 </head>
 
 <body>
-
+<!--The header contains my name and the links to different sections in the page-->
   <header>
     <h1>Alex Marriott</h1>
     <nav>
@@ -19,8 +19,9 @@
         <a href="#contact">Contact</a>
     </nav>
   </header>
-
+<!--I used the container class per my tutors suggestion to help me see the flow a bit better-->
   <main class="container">
+    <!--Here I used the Row and Col class to help me remember that columns sit inside of rows, or the page moves left to right-->
     <div class="row">
        <div class="col left"  id="about"><h2>About Me</h2></div>
         <div class="col right">
@@ -30,35 +31,38 @@
         </div>
     </div>
     <div class="row">
+        <!--In the below lines of HTML I did my best in getting the images centered, could not get the bottom left to sit on the images.-->
         <div class="col left"><h2>Work</h2></div>
         <div class="col right">
             <div class="row big_image">
                 <div class="col"  id="bigpicture">
-                  <a href="https://alexdcp.github.io/prework-study-guide/"><img id="prework" src="assets\images\pre-work-screenshot.jpg" ref="prework"></a>
-                  <div class="bottom-left">Pre-work Study-guide</div>
+                  <a href="https://alexdcp.github.io/prework-study-guide/">
+                    <img id="prework" src="assets\images\pre-work-screenshot.jpg" ref="prework"><div class="bottom-left">Pre-work Study-guide</div></img>
+                    </a>
+                </div>
+            </div>
+            <!--The below small images are styled to sit next to eachother and this is where I struggled to get the images to fill the available size-->
+            <div class="row small_images">
+                <div class="col" id="littlepicture">
+                    <a href="https://alexdcp.github.io/Week-1-Challenge/"><img id="first-challenge" src="assets\images\First-Challenge.jpg" ref="first-challenge"><div class="bottom-left">First-Challenge</div></img>
+                    </a>
                 </div>
             </div>
             <div class="row small_images">
                 <div class="col" id="littlepicture">
-                    <a href="https://alexdcp.github.io/Week-1-Challenge/"><img id="first-challenge" src="assets\images\First-Challenge.jpg" ref="first-challenge"></a>
+                    <a href="#placeholder"><img id="placeholder"src ="assets\images\place-holder-1.jpg" ref= "placeholder"><div class="bottom-left">Coming Soon!</div></img>
+                    </a>
                 </div>
-                <div class="bottom-left">First-Challenge</div>
             </div>
             <div class="row small_images">
                 <div class="col" id="littlepicture">
-                    <a href="#placeholder"><img id="placeholder"src ="assets\images\place-holder-1.jpg" ref= "placeholder"></a>
-                </div>
-                <div class="bottom-left">Coming Soon!</div>
+                    <a href="#placeholder2"><img id="placeholder"src ="assets\images\place-holder-2.jpg" ref= "placeholder2"><div class="bottom-left">Coming Soon!</div></img>
+                    </a>
+                </div> 
             </div>
             <div class="row small_images">
                 <div class="col" id="littlepicture">
-                    <a href="#placeholder2"><img id="placeholder"src ="assets\images\place-holder-3.jpg" ref= "placeholder2"></a>
-                </div>
-                <div class="bottom-left">Coming Soon!</div>
-            </div>
-            <div class="row small_images">
-                <div class="col" id="littlepicture">
-                    <a href="#placeholder3"><img id="placeholder"src ="assets\images\place-holder-3.jpg" ref= "placeholder3"></a>
+                    <a href="#placeholder3"><img id="placeholder"src ="assets\images\place-holder-3.jpg" ref= "placeholder3"></img></a>
                 </div>
                 <div class="bottom-left">Coming Soon!</div>
             </div>

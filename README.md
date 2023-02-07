@@ -10,6 +10,6 @@ To access my portfolio, visit: https://alexdcp.github.io/2-6-Challenge
 
 ## Usage
 
-/*Screenshot here*/
+To view a screenshot click here: ![Alt text](assets\images\2-6-screenshot.JPG)
 
 
