@@ -184,6 +184,10 @@ nav a:hover {
   position: relative;
 }
 
+a {
+  position: relative;
+}
+
 /* 
 I think this is redundant, cannot tell.
 #littlepicture{
