@@ -109,7 +109,24 @@ h2 {
 }
 
 .small_images > .col {
-  flex-basis: 50%
+  flex-basis: 100%;
+}
+
+.big_image {
+  max-width: 60%;
+}
+
+.small_images {
+  max-width: 50%;
+  position: relative;
+}
+
+
+#placeholder,
+#first-challenge {
+  max-width: 100%;
+  max-height: 200px;
+  background-size: cover;
 }
 
 .contact {
@@ -139,6 +156,36 @@ h2 {
 nav a:hover {
   background-color: var(--red);
 }
+
+#placeholder,
+#first-challenge,
+#prework{
+  max-width: 100%;
+  border-style: solid;
+  border-width: 5px;
+  border-color: var(--red);
+  position: relative;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  color: var(--black);
+  font-family: sans-serif;
+  font-size: 1.5vw;
+  background-color: var(--gold);
+  padding: 5px;
+}
+
+#bigpicture {
+  position: relative;
+}
+
+#littlepicture{
+  flex-basis: auto;
+}
+
 
 @media screen and (max-width: 980px) {
 
